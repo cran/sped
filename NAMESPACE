@@ -1,0 +1,12 @@
+
+useDynLib(sped, .registration = TRUE, .fixes = "C_")
+
+export(descent)
+export(gammas)
+export(betas)
+export(alphas)
+export(inbreeding)
+export(kinship)
+
+importFrom(pooh, tsort)
+
